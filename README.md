@@ -6,8 +6,6 @@ Designed for Linux devices such as **Raspberry Pi** with small horizontal displa
 
 ![2026-01-02-02-23-11-957(1)](https://github.com/user-attachments/assets/e8739896-9356-489d-bca7-346999a6d9bc)
 
-`Insert Dev.to post (If you found this repo on the web I have a blog posted talking about how the project started. TLDR, it's a use case for vibe coding to solve a practical use case`
-
 ---
 
 ## Features
