@@ -131,3 +131,12 @@ This project is intentionally simple so it can be:
 
 * Re-installed on other Linux devices
 * Extended later (systemd service, kiosk mode, Docker, etc.)
+
+---
+
+## Additional Testing
+
+Show casing app running on CentOS VM via Proxmox.
+![Adobe Express - 2026-01-10 19-14-31](https://github.com/user-attachments/assets/3eb357df-c2c2-4d0b-8557-777740e9b421)
+
+
