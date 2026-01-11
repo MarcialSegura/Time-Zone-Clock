@@ -48,6 +48,11 @@ sudo apt install -y python3 python3-tk
 That’s it.
 No pip packages are required.
 
+### For RHEL Distros
+
+```
+sudo dnf install -y python3 python3-tkinter
+```
 ---
 
 ### 2. Python version
