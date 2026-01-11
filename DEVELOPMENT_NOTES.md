@@ -1,4 +1,4 @@
-## Issue: File Conversion Issues
+## Issue: File Conversion Issues (On my Rasepberry Pi)
 
 **Symptom**  
 I ran into this issue while I was attempting to make a `Desktop Icon executable` for the app. 
@@ -36,7 +36,7 @@ Or
 If all four are “yes,” it runs. If not, Linux will block you — quietly.
 
 
-## Issue: File Ownership
+## Issue: File Ownership (On my Rasepberry Pi)
 
 **Symptom**  
 Not able to move any file into the home dir. Part of trying to make a `Desktop Icon executable` for the app.
@@ -56,4 +56,5 @@ Why this works:
 - - Restores normal user control
 
 **Takeaway**  
+
 - If you don’t own the file, you don’t control it.
