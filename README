@@ -1,0 +1,13 @@
+# GUI Time Zone Clock
+
+A Python-based GUI clock that displays four U.S time zone:
+PST, MST, CST, and EST.
+
+## Scope
+- Debian-based Linux systems only
+- GUI desktop environment required
+- Manual launch only (no auto-start)
+
+## Purpose
+This project is used to practice Devops fundamentals such as version control, packaging decisions,
+and deployment to multiple machines.
