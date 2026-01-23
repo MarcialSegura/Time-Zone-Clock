@@ -1,5 +1,9 @@
 # No third-party Python dependencies are required.
 # This project uses only the Python standard Library.
+# There will be a script in this project that calls from the requirement.txt file
+# to install pip dependenices but this is only for future proofing. Respecting
+# CI/CD workflows and practices.
+# 
 
 # Note:
 # Tkinter is not installed via pip.
