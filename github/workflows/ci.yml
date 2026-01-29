@@ -1,0 +1,31 @@
+### Define when CI runs
+name: CI Validation
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+### Define the Runner Environment
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+### Check out the repository code
+steps:
+  -name: Check out repository
+   uses: actions/checkout@v4
+### Install system dependencies
+- name: Install system dependecies
+  run: |
+    sudo apt install
+    sudo apt install -y python3 python3-tk
+### Install python dependencies (Comment out)
+#- name: Install python dependencies
+#  run: |
+#    if [ -f requirements.txt ]; then
+#      python3 -m pip install --user -r requirements.txt
+#    fi
+### Validate python code without launching GUI
+- name: Validate Python syntex
+  run: |
+    python3 -m py_compile app/main.py
