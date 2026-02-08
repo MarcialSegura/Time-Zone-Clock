@@ -19,6 +19,6 @@ sudo apt install -y python3 python3-tk
 #fi
 
 echo "Installation complete"
-echo "To run the application manually.. Run: python3 app/main.py"
+echo "To run the application manually.. Run: ./main.py or python3 main.py"
 echo "Make the script executable.. Run: chmod +x main.py"
 echo "Or, Right-click main.py and Run as Program"
