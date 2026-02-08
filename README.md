@@ -67,19 +67,13 @@ python3 --version
 
 ---
 
-## Downloading the Script
+## Downloading the Repo
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/MarcialSegura/time_zone_clock.git
-cd time_zone_clock
-```
-
-Or download just the file:
-
-```bash
-wget https://raw.githubusercontent.com/MarcialSegura/time_zone_clock/main/multizone_clock.py
+git clone https://github.com/MarcialSegura/Time-Zone-Clock.git
+cd Time-Zone-Clock
 ```
 
 ---
@@ -89,19 +83,19 @@ wget https://raw.githubusercontent.com/MarcialSegura/time_zone_clock/main/multiz
 Make the script executable:
 
 ```bash
-chmod +x multizone_clock.py
+chmod +x main.py
 ```
 
 Run it:
 
 ```bash
-./multizone_clock.py
+./main.py
 ```
 
 Or explicitly with Python:
 
 ```bash
-python3 multizone_clock.py
+python3 main.py
 ```
 
 ---
